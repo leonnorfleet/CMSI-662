@@ -1,6 +1,4 @@
 
-
----
 ## Project Structure
 
 stack_c/: C23 implementation
