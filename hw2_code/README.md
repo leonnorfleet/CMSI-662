@@ -2,7 +2,9 @@
 ## Project Structure
 
 stack_c/: C23 implementation
+
 stack_cpp/: C++23 implementation
+
 stack_java/: Java implementation
 
 ---
