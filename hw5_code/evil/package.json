@@ -1,0 +1,16 @@
+{
+  "name": "evil",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "evil.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch evil.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

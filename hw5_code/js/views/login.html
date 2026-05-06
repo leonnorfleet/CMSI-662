@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <% if (error) { %>
+        <p style="color: red"><%= error %></p>
+    <% } %>
+
+    <% if (success) { %>
+        <p style="color: green">
+            <%= success %>
+        </p>
+    <% } %>
+
+    <form method="post" action="/login">
+        <p>Email: <input type="text" name="email"></p>
+        <p>Password: <input type="password" name="password"></p>
+        <p><input type="submit" value="Login"></p>
+        <input type="hidden" name="csrfToken" value="<%= csrfToken %>" />
+    </form>
+
+    <p><a href="/createaccount">Create an Account</a></p>
+    <!-- <p><a href="/forgot">Forgot Password</a></p> -->
+</body>
+
